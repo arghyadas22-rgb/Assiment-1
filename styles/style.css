@@ -115,6 +115,9 @@
     height: 60px;
     margin-bottom: 32px;
 }
+
+
+
 .button-btn {
     display: flex;
     justify-content: center;
@@ -139,7 +142,7 @@
 .button-2 button{
     width: 198px;
     height: 52px;
-    background-color: #469165;
+    background-color: #0a181000;
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
@@ -156,4 +159,219 @@
 }
 .button-2 button:hover{
     background-color: #02411c5f;
+}
+
+#skills .skills-container{
+    height: 652px;
+}
+
+#skills .section-heading {
+    width: 1360px;
+    height: 152px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin-bottom: 44px;
+    
+}
+
+.section-heading .para-1{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.section-heading .para-2 {
+    font-size: 16px;
+    color: #627382;
+}
+
+
+.skills-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0 auto;
+    width: 1300px;
+    height: auto;
+    background-color: #ffffff5a;
+
+}
+.skills-box .skill-card{
+    width: 322px;
+    height: 300px;
+    /* border: 1px solid red; */
+    padding: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 5px 8px #aeaaaa;
+}
+.skill-card .icon {
+    width: 64px;
+    height: 64px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.skills-box .skill-card img{
+    background-color: #F95555;
+    width: 32px;
+    height: 32px;
+}
+.skills-box .skill-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #262f9a;
+    margin-bottom: 16px;
+}
+.skills-box .skill-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+
+#brain-section  {
+    height: 840px;
+    /* border: 1px solid red; */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#brain-section .brain-container {
+    width: 1360px;
+    height: 600px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.brain-image img{
+    width: 600px;
+    height: 600px;
+}
+.brain-writing{
+    /* border: 1px solid black; */
+    width: 700px;
+    height: 396px;
+}
+
+.brain-writing .line-1 {
+    font-size: 16PX;
+    color: #30B868;
+    margin-bottom: 16PX;
+}
+.brain-writing .line-2{
+    font-size: 48px;
+    color: #001931;
+    font-weight: 700;
+}
+.brain-writing span{
+    font-size: 48px;
+    color: #001931;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.line-3{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.click{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+} 
+
+.click img{
+    height: 20px;
+    width: 20px;
+
+}
+.click .click-tik{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#class-10{
+    height: 506px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class-11{
+    border: 1px solid red;
+    width: 1360px;
+    height: 384px;
+    background-color: #F7F6F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.class12 .class-13{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+.class12 .class-14 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+
+.downline{
+    color: #627382;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.btn-2 {
+    background-color: #469165;
+    width: 194px;
+    height: 52px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+    
+}
+.btn-2:hover{
+    background-color: #02411c5f;
+}
+.btn-2 img{
+    width: 20px;
+    height: 20px;
 }
