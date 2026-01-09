@@ -94,6 +94,7 @@
     border: none;
     border-radius: 1000px;
     margin-bottom: 16px;
+    cursor: pointer;
     
     
 }
@@ -199,6 +200,7 @@
     width: 1300px;
     height: auto;
     background-color: #ffffff5a;
+    cursor: pointer;
 
 }
 .skills-box .skill-card{
@@ -311,13 +313,13 @@
 
 #class-10{
     height: 506px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .class-11{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 1360px;
     height: 384px;
     background-color: #F7F6F2;
